@@ -1,6 +1,5 @@
 let results = [];
 function permutate(text, dummy = "") {
-    //console.log(text);   
     if (text.length == 0) {
         results.push(dummy);
         //console.log(dummy);

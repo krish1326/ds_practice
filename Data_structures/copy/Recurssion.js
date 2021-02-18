@@ -17,7 +17,7 @@ function capitalizeFirst(array) {
 
     return [array[0]].concat(capitalizeFirst(array.slice(1)));
 }
-capitalizeFirst(["cat", "bat", "banana"])
+console.log(capitalizeFirst(["cat", "bat", "banana"]))
 
 function sumRange(number) {
     if (number === 1) return 1;
@@ -29,4 +29,4 @@ function factorial(number) {
     if (number === 1) return 1;
     return number * factorial(number - 1);
 }
-factorial(5);
+console.log(factorial(5));

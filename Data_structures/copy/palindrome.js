@@ -13,14 +13,7 @@ function testPalindrome(testString) {
 */
 
 function palindrome(x) {
-
     let input = x.toString().slice("");
-    //     while(input>0){
-    //         output=output*10+(input%10);
-    //         input=Math.floor(input/10);
-    //     }
-    //     return output==x;
-
     let start_index = 0, end_index = input.length - 1;
     while (start_index != end_index - 1) {
         if (input[start_index] != input[end_index]) {
