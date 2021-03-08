@@ -49,9 +49,18 @@ var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // console.log(rotate(array, 3))
 
-
-
-
-
-
-
+/**
+ * React:
+ * a. class components: 
+ *  1. order of rendering
+ *  2. props vs state.
+ *  3. setState.
+ *  4. refs
+ *  5. higher order components
+ *  6. portals.
+ *  7. 
+ * b. functional components : hooks, why hooks, 
+ * 
+ * Funtionalities:
+ * 
+ */

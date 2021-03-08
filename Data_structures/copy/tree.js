@@ -1,4 +1,4 @@
-// const util = require('util')
+const util = require('util')
 /**
  * Non-Linear data structures : 
  * The data structures which does have multiple paths for iterations are called non-linear Data structures
@@ -85,7 +85,7 @@ class BinarySearchTree extends Node {
 
     }
     displayTree() {
-        console.log(this.root, true, null, true);
+        console.log(util.inspect(this.root, true, null, true));
     }
 }
 let bst1 = new BinarySearchTree();

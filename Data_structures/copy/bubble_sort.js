@@ -18,14 +18,6 @@ function bubbleSort(array) {
       if (no_swap) break; // this is in a case like [1,2,8,3,4] ==> where the array will be sorted in one pass and
       //in the next pass we don't see any of swaping which prevents the further iterations.
     }
-
-    //     let k=0;
-    //         for(let i=0;i<array.length;i++){
-    //                 for(let j=0;j<array.length-k-1;j++){
-    //                    if(array[j]>array[j+1]) swap(array,j,j+1);
-    //                 }
-    //                 k++;
-    //             }
   }
   return array;
 }
