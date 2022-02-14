@@ -30,5 +30,5 @@ var isValid = function (s) {
         }
 
     }
-    return true
+    return current_stack.length === 0;
 };
