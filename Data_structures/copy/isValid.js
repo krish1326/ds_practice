@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function (s) {
+var isValidParanthesis = function (s) {
     let obj = {
         '{': '}',
         '[': ']',
@@ -32,3 +32,6 @@ var isValid = function (s) {
     }
     return current_stack.length === 0;
 };
+
+isValidParanthesis('{{}}()') // true
+isValidParanthesis('((})') // false
